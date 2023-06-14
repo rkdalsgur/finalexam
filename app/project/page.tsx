@@ -117,6 +117,22 @@ export default function Home() {
             Bootstrap 기술을 활용해서 제작한 두 번째 포트폴리오 블로그입니다.
           </p>
         </a>
+        <a
+          href="https://animalsaver.kro.kr"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            AnimlaSaver{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            팀 프로젝트로 진행한 동물 보호 캠페인 홈페이지입니다.
+          </p>
+        </a>
       </div>
 
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
